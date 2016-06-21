@@ -1,0 +1,55 @@
+TEST CASE 1 ~~Request processed by worker ID: ZGI00009
+TEST CASE 1 ~~RTF process started for TEST CASE 1
+TEST CASE 1 ~~Validation: Validating CONFIG file: TEST CASE 1
+TEST CASE 1 ~~Validation: Checking GENERAL Section...
+TEST CASE 1 ~~Validation: SESSSION WAIT TIME set to default value of 60 seconds
+TEST CASE 1 ~~Validation Info: Prephase file info missing, continuing process
+TEST CASE 1 ~~Validation: Checking SCRIPT section...
+TEST CASE 1 ~~Validation: Checking TRACEDEF Section...
+TEST CASE 1 ~~Validation: Checking TRACE_OVERRIDE section...
+TEST CASE 1 ~~Validation: Checking DATABASE section...
+TEST CASE 1 ~~Validation: Checking DATABASE - Record IDs...
+TEST CASE 1 ~~Validation: Checking DATABASE - Tapes...
+TEST CASE 1 ~~Validation: Checking SNAP_SHOT Section...
+TEST CASE 1 ~~Validation: Checking System availability...
+TEST CASE 1 ~~Validation: process completed
+TEST CASE 1 ~~Starting worker for Phase 1
+TEST CASE 1 ~~Phase 1 Socket=2
+TEST CASE 1 ~~Starting worker for Logger
+TEST CASE 1 ~~Logger Socket=3
+TEST CASE 1 ~~Got PH1 Info, Userid=ZGI00021
+TEST CASE 1 ~~Got LOG Info, Userid=ZGI00017
+TEST CASE 1 ~~Got all Connections
+TEST CASE 1 ~~Logger: Initiate IUCV message sent
+TEST CASE 1 ~~LOGGER: IUCV server Initiated
+TEST CASE 1 ~~PH1: Sending connect request
+TEST CASE 1 ~~PH1-VPZTPF4: Server connect successful
+TEST CASE 1 ~~PH1-VPZTPF4: Sending logon request
+TEST CASE 1 ~~PH1-VPZTPF4: Logon replied received
+TEST CASE 1 ~~PH1-VPZTPF4: PROduct is available
+TEST CASE 1 ~~PH1-VPZTPF4: Version-01 Release-00 Modifications-00  Putlevel-NA
+TEST CASE 1 ~~PH1-VPZTPF4: Host Initialization Complete
+TEST CASE 1 ~~PH1-VPZTPF4: Configuration message send
+TEST CASE 1 ~~PH1-VPZTPF4: Configuration message send - OK
+TEST CASE 1 ~~PH1-VPZTPF4: SnapShot Configuration message send
+TEST CASE 1 ~~PH1-VPZTPF4: Snap Shot Configuration message send - OK
+TEST CASE 1 ~~PH1-VPZTPF4: Initiate running INPUT files
+TEST CASE 1 ~~PH1-VPZTPF4: INPUT to INPMSG format conversion in progress
+TEST CASE 1 ~~PH1-VPZTPF4: INPUT to INPMSG format conversion DONE
+TEST CASE 1 ~~PH1-VPZTPF4: Total Message to process = 9
+TEST CASE 1 ~~PH1-VPZTPF4: RTFMSG file run in progress
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 1 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 2 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 3 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 4 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 5 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 6 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 7 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 8 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 9 out of 9
+TEST CASE 1 ~~PH1-VPZTPF4: INPMSG file RUN Completed - Total messages processed = 9
+TEST CASE 1 ~~LOGOFF message sent to Phase I Driver
+TEST CASE 1 ~~Phase I Driver Socket closed
+TEST CASE 1 ~~IUCV TERM message sent to Logger
+TEST CASE 1 ~~Logger Socket closed
+TEST CASE 1 ~~UNIT TEST CASE Process completed for TEST CASE 1
