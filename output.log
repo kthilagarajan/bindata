@@ -1,0 +1,52 @@
+ <------
+� 00:04:43 DEMO    ~~Request processed by worker ID: ZGI00020
+�Job for DEMO
+�00:04:43 DEMO    ~~RTF process started for DEMO
+�00:04:43 DEMO    ~~RTF process started for DEMO
+�00:04:43 DEMO    ~~Validation: Validating RTFCONF file: DEMO
+�00:04:43 DEMO    ~~Validation: Checking GENERAL Section...
+�00:04:43 DEMO    ~~Validation Info: Prephase file info missing, continuing process
+�00:04:43 DEMO    ~~Validation: Checking SCRIPT section...
+�00:04:44 DEMO    ~~Validation: Checking TRACEDEF Section...
+�00:04:44 DEMO    ~~Validation: Checking TRACE_OVERRIDE section...
+�00:04:44 DEMO    ~~Validation: Checking DATABASE section...
+�00:04:44 DEMO    ~~Validation: Checking DATABASE - Record IDs...
+�00:04:44 DEMO    ~~Validation: Checking DATABASE - Tapes...
+�00:04:44 DEMO    ~~Validation: Checking SNAP_SHOT Section...
+�00:04:44 DEMO    ~~Validation: Checking System availability...
+�00:04:44 DEMO    ~~Validation: process completed
+�00:04:44 DEMO    ~~Starting worker for Phase 1
+�00:04:45 DEMO    ~~Phase 1 Socket=2
+�00:04:45 DEMO    ~~Starting worker for Logger
+�00:04:46 DEMO    ~~Logger Socket=3
+�00:04:46 DEMO    ~~Got PH1 Info, Userid=ZGI00024
+�00:04:46 DEMO    ~~Got LOG Info, Userid=ZGI00003
+�00:04:46 DEMO    ~~Got all Connections
+�00:04:46 DEMO    ~~Logger: Initiate IUCV message sent
+�00:04:46 DEMO    ~~LOGGER: IUCV server Initiated
+�00:04:46 DEMO    ~~PH1: Sending connect request
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Server connect successful
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Sending logon request
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Logon replied received
+�00:04:46 DEMO    ~~PH1-VPZTPF4: RTF is available
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Version-01 Release-00 Modifications-00  Putlevel-NA
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Host Initialization Complete
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Configuration message send
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Configuration message send - OK
+�00:04:46 DEMO    ~~PH1-VPZTPF4: SnapShot Configuration message send
+�00:04:46 DEMO    ~~PH1-VPZTPF4: Snap Shot Configuration message send - OK
+�00:04:47 DEMO    ~~PH1-VPZTPF4: Initiate running INPUT files
+�00:04:47 DEMO    ~~PH1-VPZTPF4: INPUT to RTFMSG format conversion in progress
+�00:04:47 DEMO    ~~PH1-VPZTPF4: INPUT to RTFMSG format conversion DONE
+�00:04:47 DEMO    ~~PH1-VPZTPF4: Total Message to process = 2
+�00:04:47 DEMO    ~~PH1-VPZTPF4: RTFMSG file run in progress
+�00:04:47 DEMO    ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 1 out of 2
+�00:04:47 DEMO    ~~PH1-VPZTPF4: RUN STATUS - Number of messages completed = 2 out of 2
+�00:04:47 DEMO    ~~PH1-VPZTPF4: RTFMSG file RUN Completed - Total messages processed = 2
+�00:04:47 DEMO    ~~LOGOFF message sent to Phase I Driver
+�00:04:49 DEMO    ~~Phase I Driver Socket closed
+�00:04:49 DEMO    ~~IUCV TERM message sent to Logger
+�00:04:55 DEMO    ~~Logger Socket closed
+�00:05:00 DEMO    ~~RTF Process completed for DEMO
+�00:05:00 DEMO    ~~RTF Process completed for DEMO
+�
