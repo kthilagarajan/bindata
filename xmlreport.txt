@@ -1,101 +1,39 @@
-<TEST CASE-Summary-Report>
+<Unit-testing-Summary-Report>
 <Run-Status>
-<Messages-Processed Name="Messages Processed" Phase1="10" />
-<Start-Time Name="Start Time" Phase1="-" />
-<End-Time Name="End Time" Phase1="06/14/16 04:21:56" />
+<Project Name="PROJECT1" />
+<SEG Name="PROG1" Case="TEST CASE1" />
+<Case Name="TEST CASE1" />
+<Messages-Processed Name="Messages Processed" Count="8" />
+<Start-Time Name="Start Time" Time="04:21:00"/>
+<End-Time Name="End Time" Time="04:21:56" />
 </Run-Status>
-<Programs-Entered>
-<CDM0 Name="CDM0" Phase1="1" />
-<CENV Name="CENV" Phase1="33" />
-<CFIS Name="CFIS" Phase1="3" />
-<CFVL Name="CFVL" Phase1="6" />
-<CFVS Name="CFVS" Phase1="90" />
-<CFVZ Name="CFVZ" Phase1="36" />
-<CIAA Name="CIAA" Phase1="8" />
-<CJ00 Name="CJ00" Phase1="45" />
-<CKYZ Name="CKYZ" Phase1="3" />
-<CNG0 Name="CNG0" Phase1="5" />
-<COAB Name="COAB" Phase1="6" />
-<COA4 Name="COA4" Phase1="8" />
-<COBC Name="COBC" Phase1="8" />
-<CPP1 Name="CPP1" Phase1="181" />
-<CTBX Name="CTBX" Phase1="2" />
-<CVAA Name="CVAA" Phase1="8" />
-<CVIA Name="CVIA" Phase1="3" />
-<CVIQ Name="CVIQ" Phase1="3" />
-<CVIX Name="CVIX" Phase1="3" />
-<CVI1 Name="CVI1" Phase1="6" />
-<CVLZ Name="CVLZ" Phase1="1" />
-<CVOF Name="CVOF" Phase1="1" />
-<CVPA Name="CVPA" Phase1="129" />
-<RES0 Name="RES0" Phase1="10" />
-<RES1 Name="RES1" Phase1="3" />
-<RES2 Name="RES2" Phase1="1" />
-<RES3 Name="RES3" Phase1="1" />
-<RES6 Name="RES6" Phase1="1" />
-<UCVZ Name="UCVZ" Phase1="1" />
-<UELH Name="UELH" Phase1="8" />
-<UENV Name="UENV" Phase1="33" />
-<UIS1 Name="UIS1" Phase1="1" />
-<UIS2 Name="UIS2" Phase1="1" />
-<UIS3 Name="UIS3" Phase1="1" />
-<UOP1 Name="UOP1" Phase1="6" />
-<UOP3 Name="UOP3" Phase1="129" />
-<WGR1 Name="WGR1" Phase1="17" />
-</Programs-Entered>
-<Macros-Processed>
-<ATTAC Name="ATTAC" Phase1="4" />
-<BACKC Name="BACKC" Phase1="307" />
-<CCIDC Name="CCIDC" Phase1="6" />
-<CEBIC Name="CEBIC" Phase1="22" />
-<CINFC Name="CINFC" Phase1="34" />
-<CLHSC Name="CLHSC" Phase1="6" />
-<CRATC Name="CRATC" Phase1="46" />
-<CREEC Name="CREEC" Phase1="3" />
-<CROSC Name="CROSC" Phase1="3" />
-<DCOLC Name="DCOLC" Phase1="8" />
-<DETAC Name="DETAC" Phase1="4" />
-<ECBMC Name="ECBMC" Phase1="3" />
-<ENTDC Name="ENTDC" Phase1="12" />
-<ENTNC Name="ENTNC" Phase1="23" />
-<ENTRC Name="ENTRC" Phase1="181" />
-<EOWNRC Name="EOWNRC" Phase1="3" />
-<EVNTC Name="EVNTC" Phase1="3" />
-<EXITC Name="EXITC" Phase1="22" />
-<FILEC Name="FILEC" Phase1="49" />
-<FILNC Name="FILNC" Phase1="26" />
-<FILUC Name="FILUC" Phase1="1" />
-<FINHC Name="FINHC" Phase1="3" />
-<FINWC Name="FINWC" Phase1="74" />
-<FIWHC Name="FIWHC" Phase1="2" />
-<FREEC Name="FREEC" Phase1="133" />
-<GETCC Name="GETCC" Phase1="69" />
-<GETFC Name="GETFC" Phase1="49" />
-<GETPC Name="GETPC" Phase1="1" />
-<KEYRC Name="KEYRC" Phase1="16" />
-<MALOC Name="MALOC" Phase1="141" />
-<POSTC Name="POSTC" Phase1="4" />
-<PROGC Name="PROGC" Phase1="3" />
-<RELCC Name="RELCC" Phase1="70" />
-<RELFC Name="RELFC" Phase1="1" />
-<ROUTC Name="ROUTC" Phase1="9" />
-<SENDCA Name="SENDCA" Phase1="5" />
-<SENDCL Name="SENDCL" Phase1="6" />
-<SWISC Name="SWISC" Phase1="8" />
-<TIMEC Name="TIMEC" Phase1="6" />
-<UATBC Name="UATBC" Phase1="10" />
-<UNFRC Name="UNFRC" Phase1="4" />
-<WAITC Name="WAITC" Phase1="29" />
-<WTOPC Name="WTOPC" Phase1="10" />
-</Macros-Processed>
-<DB-Writes>
-<ID-CO Name="ID-CO" Phase1="3" />
-<ID-OM Name="ID-OM" Phase1="71" />
-<ID-MP Name="ID-MP" Phase1="1" />
-<ID-FD02 Name="ID-FD02" Phase1="1" />
-</DB-Writes>
-<Tape-Writes>
-</Tape-Writes>
-<Input-Output>
-</Input-Output>
-</TEST CASE-Summary-Report>
+
+<Input-Log>
+<Log  Condition="1" Area="Unknown" Address="0000000012B10010" />
+<Location DISP="0000" Data="D4C90040 00000000 00000000 00000000" />
+<Location DISP="0010" Data="000DD401 056C6CE9 E2E3C1E3 40E44E00" />
+<Location DISP="0020" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0030" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0040" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0050" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0060" Data="00000000 00000000 00000000 00000000" />
+</Input-Log>
+
+
+<Exit-Log>
+<Log  Condition="1" Area="Unknown" Address="0000000012B10010" />
+<Location DISP="0000" Data="D4C90040 00000000 00000000 00000000" />
+<Location DISP="0010" Data="000DD401 056C6CE9 E2E3C1E3 40E44E00" />
+<Location DISP="0020" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0030" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0040" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0050" Data="00000000 00000000 00000000 00000000" />
+<Location DISP="0060" Data="00000000 00000000 00000000 00000000" />
+</Exit-Log>
+
+<Exit-Validation>
+<Validation Condition="1" Satified="YES" >
+<Validation Condition="2" Satified="YES" >
+</Exit-Validation>
+
+</Unit-testing-Summary-Report>
